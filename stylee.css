@@ -1,84 +1,87 @@
-html {
-    height: 100%;
+body{
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-
-body {
-    background-color: rgb(255, 255, 255);
-    background-image: url(Image/pexels-photomix-company-101808.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
-}
-
-header {
-    height: 118px;   
+header{
+    background-color: orange;
     text-align: center;
-}
-
-nav {
-    background-color: rgba(0, 0, 0, 0.342);  
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-
-main {
-    height: 1000%;
-    text-align: center;  
-    padding-top: 80px;
-    padding-left: 240px;
-    padding-right: 240px; 
-}
-
-footer {
-    background-color: rgba(0, 0, 0, 0.713);  
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-h1 {
-    font-size: 84px;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+h1 h2{
+    font-family: 'Chela One', cursive;
 }
 
-p {
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-
+header h1{
+    color: #9D0D04;
+    font-size: 50px;
 }
 
-a {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+header img{
+    border-radius: 170px;
+    width: 300px;
+    border: 10px solid #9D0D04;
 }
 
-nav a {
-    text-decoration: none;
-    font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20 px;
 }
 
-footer p {
-    font-size: 10px;
+main img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 35px;
+    color: #9D0D04;
+    margin: 40px 0 10px;
+}
+
+a{
+    color: #9D0D04;
+}
+
+a:hover{
+    color: white;   
+    background-color: #483a94 ;
+}
+
+footer{
+    background-color: orange;
     text-align: center;
     color: white;
+    padding: 50px;
 }
 
-section {
-    background-color: aqua;
-    height: 500px;
-    width: 1000px;
+footer p{
+    margin: 0;
 }
+
+footer a{
+    color: white;
+    text-align: center;
+}
+footer a:hover{
+    opacity: .5;
+    background-color: orangered;
+}
+
+p.caption{
+    color: darkgreen;
+    font-style: italic;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
 
