@@ -18,19 +18,27 @@ body {
 }
 
 header {
-    
+    background-color: blue;
+    height: 118px;
+    width: 1024px;
 }
 
 nav {
-   
+    background-color: rgb(65, 156, 49);
+    height: 40px;
+    width: 1024px;
 }
 
 main {
-   
+    background-color: rgb(255, 0, 0);
+    height: 400px;
+    width: 1024px;
 }
 
 footer {
- 
+    background-color: rgb(255, 225, 0);
+    height: 100px;
+    width: 1024px;
 }
 
 h1 {
