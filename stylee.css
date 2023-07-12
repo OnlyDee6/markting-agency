@@ -3,30 +3,35 @@ html {
 }
 
 body {
-    body {
-        background-color: rgb(255, 255, 255);
+
+        background-color: rgb(86, 84, 84);
         background-image: url(images/background-adare-restaurant.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-    }
+    
 }
 
 
 .container {
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
 }
 
 header {
     background-color: blue;
     height: 118px;
     width: 1024px;
+   
+    
 }
 
 nav {
     background-color: rgb(65, 156, 49);
     height: 40px;
     width: 1024px;
+    text-align: center;
 }
 
 main {
@@ -39,26 +44,5 @@ footer {
     background-color: rgb(255, 225, 0);
     height: 100px;
     width: 1024px;
-}
-
-h1 {
-    
-}
-
-p {
-    
-
-}
-
-a {
-    
-}
-
-nav a {
-    
-}
-
-footer p {
-
 }
     
